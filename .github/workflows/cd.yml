@@ -22,4 +22,4 @@ jobs:
         run: ./scripts/buildprod.sh
 
       - name: Gcloud
-        run: echo "gcloud builds submit"
+        run: echo "migrateup.sh"
