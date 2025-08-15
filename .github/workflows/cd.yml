@@ -20,3 +20,6 @@ jobs:
 
       - name: Build app
         run: ./scripts/buildprod.sh
+
+      - name: Gcloud
+        run: echo "gcloud builds submit"
